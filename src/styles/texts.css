@@ -1,0 +1,50 @@
+.title-logo{
+    font-size: var(--font-size-1);
+    font-weight: var(--bold);
+    color: var(--color-black);
+}
+
+.title-card{
+    font-size: var(--font-size-3);
+    font-weight: var(--bold);
+    color: var(--color-black);
+    white-space: nowrap;
+    width: 174px;
+}
+
+.title-form{
+    font-size: var(--font-size-5);
+    font-family: (--font-poppins);
+    font-weight: var(--bold);
+}
+
+.title-profile{
+    font-size: var(--font-size-6);
+    font-weight: var(--bold);
+    color: var(--color-black);
+}
+
+.span-text{
+    font-size: var(--font-size-8);
+    color: var(--color-black);
+    font-weight: var(--bold);
+    text-align: center;
+}
+
+.text-1{
+    font-weight: var(--regular);
+    font-size: var(--font-size-1);
+    color: var(--color-black);
+}
+
+.text-2{
+    font-weight: var(--regular);
+    font-size: var(--font-size-1);
+    color: var(--color-black);
+    text-align: center;
+}
+.text-3{
+    font-weight: var(--regular);
+    font-size: var(--font-size-7);
+    color: var(--color-black);
+}

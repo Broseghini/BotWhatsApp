@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&family=Roboto:wght@700&display=swap');
+
+:root {
+    --color-brand: #4200FF;
+    --color-white-fixed: #ffff;
+    --color-black: #000;
+    --color-red: #CE4646;
+    --color-green: #4BA036;
+
+    --bold: 700;
+    --regular: 400;
+
+    --font-inter: 'Inter', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+
+    --font-size-1: 1rem;
+    --font-size-2: 1.125rem;
+    --font-size-3: 1.25rem;
+    --font-size-4: 1.5rem;
+    --font-size-5: 2rem;
+    --font-size-6: 1.875rem;
+    --font-size-7: 1.375rem;
+    --font-size-8: 2.5rem;
+
+}
+
+body {
+    font-family: var(--font-inter);
+    /* height: 100vh; */
+    position: relative;
+
+}
+
+header {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 1;
+    background-color: var(--color-white-fixed);
+    width: 100%;
+
+}
+
+main {
+    position: relative;
+    z-index: 0;
+    top: 82px;
+}
+
+.container {
+    width: 322px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-right {
+    display: none;
+}
+
+.purple-circle {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(66, 0, 255, 0.5);
+    border-radius: 50%;
+}
+
+.logo-company {
+    margin-top: 5px;
+}
+
+.buttons-nav {
+    margin-top: -170px;
+}
+
+.button-menu {
+    outline: none;
+    border: none;
+    height: 16px;
+    width: 24px;
+    overflow: hidden;
+    background-color: transparent;
+    background-image: url(../assets/img/vectormenu.png);
+    background-size: cover;
+
+}
+
+.div-top-header {
+    width: 100%;
+}
+
+.button-menu-change {
+    background-color: transparent;
+    background-size: cover;
+    height: 18px;
+    width: 18px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    background-image: url(../assets/img/Vectorclosemenu.png);
+}
+
+.show-menu {
+    margin-top: 44px;
+}
+
+@media (min-width: 700px) {
+    header {
+        position: unset;
+        width: unset;
+    }
+
+    main {
+        display: flex;
+        position: unset;
+    }
+
+    .container {
+        width: 1180px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-right {
+        display: block;
+        width: 550px;
+        margin-top: 22px;
+
+    }
+
+    .container-left {
+        max-height: 100%;
+        width: 550px;
+        height: 743px;
+        max-width: 100%;
+    }
+
+    .button-menu {
+        display: none;
+    }
+
+    .buttons-nav {
+        margin-top: 0;
+        width: 300px;
+    }
+
+    .div-top-header {
+        width: unset;
+    }
+}

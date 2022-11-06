@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/inputs.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/spaces.css">
+    <link rel="stylesheet" href="../../styles/display.css">
+    <link rel="stylesheet" href="../../styles/sizes.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <div class="container flex justify-between items-center wrap padding-1">
+            <div class="flex justify-between div-top-header">
+                <div class="logo-company flex items-center gap-1">
+                    <div class="purple-circle">
+                    </div>
+                    <h1 class="title-logo">Kenzie Empresas</h1>
+                </div>
+                <button class="button-menu self-center"></button>
+            </div>
+            <div class="buttons-nav flex gap-3">
+                <button class="primary-button">Home</button>
+                <button class="button-secondary">Login</button>
+            </div>
+        </div>
+    </header>
+    <div class="content-img flex justify-center">
+        <main class="background-form flex flex-col">
+            <div class="container flex flex-col">
+                <h2 class="title-form margin-top-1">Cadastre-se</h2>
+                <form class="flex flex-col margin-top-3 form-content">
+                    <input type="text" name="username" id="username" placeholder="Seu nome" class="inputs-form-default">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail" class="inputs-form-default">
+                    <input type="password" name="password" id="password" placeholder="Sua senha" class="inputs-form-default">
+                    <select name="professional_level" id="professional_level" class="inputs-form-default flex items-center">
+                        <option value="" selected>Nível profissional</option>
+                        <option value="júnior">Desenvolvedor júnior</option>
+                        <option value="pleno">Desenvolvedor pleno</option>
+                        <option value="sênior">Desenvolvedor sênior</option>
+                        <option value="master">Desenvolvedor master</option>
+                    </select>
+                    <button type="submit" class="button-secondary margin-top-4 w-full">Cadastre-se</button>
+                </form>
+                <button class="primary-button w-full">Retornar</button>
+            </div>
+        </main>
+    </div>
+
+</body>
+<script type="module" src="./index.js"></script>
+</html>

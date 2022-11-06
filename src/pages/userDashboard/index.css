@@ -1,0 +1,14 @@
+.section-profile{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    max-height: 121px;
+    padding: 20px 31px;
+    position: relative;
+}
+
+.section-department{
+    height: 467px;
+    width: 1178px;
+    max-width: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}

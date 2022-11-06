@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/texts.css">
+    <link rel="stylesheet" href="./src/styles/inputs.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/spaces.css">
+    <link rel="stylesheet" href="./src/styles/display.css">
+    <link rel="stylesheet" href="./src/styles/sizes.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div class="container flex justify-between items-center wrap padding-1">
+            <div class="flex justify-between div-top-header">
+                <div class="logo-company flex items-center gap-1">
+                    <div class="purple-circle">
+                    </div>
+                    <h1 class="title-logo">Kenzie Empresas</h1>
+                </div>
+                <button class="button-menu self-center"></button>
+            </div>
+            <div class="buttons-nav flex gap-3">
+                <button class="primary-button">Home</button>
+                <button class="button-secondary">Cadastro</button>
+            </div>
+        </div>
+    </header>
+    <div class="content-img flex justify-center">
+        <main class="background-form flex flex-col">
+            <div class="container flex flex-col">
+                <h2 class="title-form margin-top-1">Login</h2>
+                <p class="text-1 margin-top-2">Preencha os campos para realizar login</p>
+                <form class="flex flex-col margin-top-3 form-content">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail" class="inputs-form-default">
+                    <input type="password" name="password" id="password" placeholder="Sua senha" class="inputs-form-default">
+                    <button type="submit" class="button-secondary margin-top-4 w-full">Entrar</button>
+                </form>
+                <p class="margin-top-5 text-2">ou</p>
+                <button class="primary-button w-full margin-top-6">Cadastre-se</button>
+            </div>
+        </main>
+    </div>
+</body>
+<script type="module" src="./src/scripts/index.js"></script>
+
+</html>
