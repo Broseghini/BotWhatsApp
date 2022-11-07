@@ -1,0 +1,103 @@
+.select {
+    appearance: none;
+    margin-top: 23px;
+    height: 52px;
+    width: 331px;
+    max-width: 100%;
+    outline: none;
+    background: url(../assets/img/Arrow\ 2.png) no-repeat;
+    background-position: 95%;
+    background-color: var(--color-brand);
+    text-align: center;
+    color: var(--color-white-fixed);
+    font-weight: var(--regular);
+    font-size: var(--font-size-2);
+    font-family: var(--font-poppins);
+}
+
+.ul-company {
+    background-color: #F8F8F8;
+    height: 280px;
+    max-height: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+    flex-direction: row;
+    scroll-behavior: smooth;
+    padding-left: 15px;
+}
+
+.ul-company::-webkit-scrollbar {
+    display: none;
+}
+
+
+.card {
+    width: 241px;
+    max-width: 100%;
+    height: 196px;
+    max-height: 100%;
+    background-color: var(--color-white-fixed);
+    padding: 14px 52px 0px 15px;
+    border-bottom: 1px solid var(--color-brand);
+}
+
+.card-description {
+    height: 67px;
+    max-height: 100%;
+    width: 115px;
+    max-width: 100%;
+    margin-top: 74px;
+}
+
+.sector-company {
+    border: 1px solid var(--color-brand);
+    color: var(--color-brand);
+    text-align: center;
+    padding: 7px 0px;
+    border-radius: 255px;
+}
+
+@media (min-width: 700px) {
+
+    main{
+        margin-top: 21px;
+    }
+
+    .select {
+        width: 550px;
+        max-width: 100%;
+    }
+
+    .ul-company {
+        flex-direction: column;
+        width: 550px;
+        max-width: 100%;
+        padding-left: unset;
+        overflow-y: scroll;
+        height: 662px;
+        padding-top: 25px;
+    }
+
+    .ul-company::-webkit-scrollbar {
+        appearance: none;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: unset;
+        width: 489px;
+        height: 134px;
+        padding: 19px 13px;
+        gap: 12px;
+    }
+
+    .card-description {
+        height: 67px;
+        max-height: 100%;
+        width: 115px;
+        max-width: 100%;
+        margin-top: unset;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/texts.css">
+    <link rel="stylesheet" href="./src/styles/inputs.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/spaces.css">
+    <link rel="stylesheet" href="./src/styles/display.css">
+    <link rel="stylesheet" href="./src/styles/sizes.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <title>Kenzie Empresas</title>
+</head>
+
+<body>
+    <header>
+        <div class="container flex justify-between items-center wrap padding-1">
+            <div class="flex justify-between div-top-header">
+                <div class="logo-company flex items-center gap-1">
+                    <div class="purple-circle">
+                    </div>
+                    <h1 class="title-logo">Kenzie Empresas</h1>
+                </div>
+                <button class="button-menu self-center"></button>
+            </div>
+            <div class="buttons-nav flex gap-3">
+                <button class="primary-button">Login</button>
+                <button class="button-secondary">Cadastro</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <img src="./src/assets/img/homePagePhoto.png" alt="" class="container-right">
+            <div class="container-left">
+                <form>
+                    <select name="select" id="select" class="select">
+                        <option value="todos" selected>Selecionar setor</option>
+                        <option value="alimenticio">Alimenticio</option>
+                        <option value="varejo">Varejo</option>
+                        <option value="textil">Textil</option>
+                        <option value="manufatura">Manufatura</option>
+                        <option value="aeroespacial">Aeroespacial</option>
+                        <option value="automotiva">Automotiva</option>
+                        <option value="ti">TI</option>
+                        <option value="atacado">Atacado</option>
+                    </select>
+                </form>
+                <ul id="ulCompany" class="ul-company flex justify-start items-center gap-4">
+                </ul>
+            </div>
+    </main>
+</body>
+<script type="module" src="./src/scripts/index.js"></script>
+
+</html>
