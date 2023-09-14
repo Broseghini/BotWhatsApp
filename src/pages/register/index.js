@@ -33,5 +33,5 @@ const redirectPages = () => {
         window.location.replace("../../../index.html")
     })
 }
-
 redirectPages()
+
